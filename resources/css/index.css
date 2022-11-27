@@ -93,3 +93,41 @@ main {
     margin-bottom: 10px;
 }
 
+.locations {
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.locations .locations-title{
+    color: seashell;
+    margin: 15px 0;
+}
+
+.locations .locations-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.locations .locations-items .location-item {
+    background-color: black;
+    opacity: 1;
+    margin: 0 20px;
+    width: 300px;
+}
+
+.locations .locations-items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.locations .locations-items li {
+    margin: 30px 0;
+}
