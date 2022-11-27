@@ -71,3 +71,26 @@ main {
     margin: 18px 0;
 }
 
+.teas-section {
+    width: 1000px;
+    border: 1px solid red;
+    margin: 50px auto;
+}
+
+.teas-section .tea-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-items .tea-item {
+    width: 300px;
+    margin: 15px 15px;
+}
+
+.tea-items .tea-item .tea-image{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
